@@ -67,6 +67,7 @@
             
             // show confirmation
             echo 'Your Registration was Successful!';
+            echo '<a href="Schedule.php">Now Book Your Trip</a>';
         }
         else {
             echo '<p class="error">User already exists.</p>';
@@ -77,5 +78,6 @@
     }
         
     ?>
+    
 </body>
 </html>
