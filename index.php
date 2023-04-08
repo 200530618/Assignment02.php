@@ -11,21 +11,10 @@
 </head>
 
 <body>
-    <header>
-        <h1>
-            <a href="index.php">
-                Safe Travels
-            </a>
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="Schedule.php">Schedule</a></li>
-                <li><a href="registration.php">Register</a></li>
-                <li><a href="login.php">Login</a></li>
-
-            </ul>
-        </nav>
-    </header>
+<?php
+$title = 'Home'; // set page title BEFORE linking header as header expects this var
+require('shared/header.php');
+?>
 
 
 
